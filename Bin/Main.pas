@@ -109,7 +109,7 @@ Type
   AWSubKey3 : String = 'Software\AWC\Respaldo';
   AWSubKey4 : String = 'Software\AWC\Impresion';
   AWSubKey5 : String = 'Software\AWC\Parametros';
-  AWEMPRESA : String = 'Restorán Las Brujas Ltda.';
+  AWEMPRESA : String = 'RestorÃ¡n.';
   AWSERIAL  : String = 'AN-3169jw-4zx0-23l09-BH00F0';
 
 
@@ -227,7 +227,7 @@ begin
   Grid.Columns[3].FieldName := 'Sector';
   Grid.Columns[4].FieldName := 'Estado';
 
-  Grid.Columns[0].Title.Caption := 'Nº Mesa';
+  Grid.Columns[0].Title.Caption := 'NÂº Mesa';
   Grid.Columns[1].Title.Caption := 'Min.';
   Grid.Columns[2].Title.Caption := 'Max.';
   Grid.Columns[3].Title.Caption := 'Sector';
@@ -267,7 +267,7 @@ begin
   Grid.Columns[7].FieldName  := 'Correlativos';
   Grid.Columns[8].FieldName  := 'Reimpresion';
 
-  Grid.Columns[0].Title.Caption := 'Identificación';
+  Grid.Columns[0].Title.Caption := 'IdentificaciÃ³n';
   Grid.Columns[1].Title.Caption := 'Password';
   Grid.Columns[2].Title.Caption := 'Nombre';
   Grid.Columns[3].Title.Caption := 'CJ';
@@ -309,7 +309,7 @@ begin
   Grid.Columns[0].Title.Caption := 'Adultos Cena';
   Grid.Columns[1].Title.Caption := 'Adultos Tradicional';
   Grid.Columns[2].Title.Caption := 'Adultos Disco';
-  Grid.Columns[3].Title.Caption := 'Niños';
+  Grid.Columns[3].Title.Caption := 'NiÃ±os';
   Grid.Columns[0].Title.Alignment := taCenter;
   Grid.Columns[1].Title.Alignment := taCenter;
   Grid.Columns[2].Title.Alignment := taCenter;
